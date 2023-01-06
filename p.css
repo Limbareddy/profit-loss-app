@@ -6,6 +6,8 @@ body{
 label{
     display:block;
     padding-bottom: 1rem;
+    font-size: medium;
+    font-weight: bold;
 }
 #btn{
     color: blue;
@@ -21,4 +23,5 @@ input{
 #out{
     font-size: large;
     font-weight: bold;
+    padding: 2rem 0rem;
 }
