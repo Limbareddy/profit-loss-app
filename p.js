@@ -52,7 +52,7 @@ btn.addEventListener("click",submitHandler);
         var loss= (costprice-sellingprice)*quantity;
         var loss_percentage=(loss/costprice)*100;
         let loss_percentage1= loss_percentage.toFixed(3);
-        out.innerText=(`Hey the Loss is ${loss} and loss percentage is ${loss_percentage}%`);
+        out.innerText=(`Hey the Loss is ${loss} and loss percentage is ${loss_percentage1}%`);
         out.style.color='red';
 
     }
